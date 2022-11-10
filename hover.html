@@ -5,49 +5,78 @@
     <style>
         .tile {
             position: relative;
-            width: 150px;
             cursor: pointer;
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .cover {
-            border-radius: 5px;
             position: relative;
             width: 100%;
             top: 0;
             left: 0;
-            box-shadow: 3px 3px 5px;
+            box-shadow: 0px 0px 5px;
         }
         .desc {
             visibility: hidden;
             position: absolute;
             width: inherit;
-            top: 20px;
-            text-align: center;
-            font-family: 'Impact';
-            font-style: bold;
+            bottom: 20px;
+            left: 10px;
+            text-align: left;
+            font-family: 'Arial';
             font-size: 24px;
             color: white;
         }
-        .price {
-            position: relative;
-            width: 30px;
+        .book-name {
+            font-size: 20px;
+            font-weight: bold;
+            height: 10px;
+            padding-bottom: 26px;
         }
-        .price-tag {
-            position: relative;
-            bottom: 30px;
+        .book-author {
+            font-size: 16px;
+            height: 14px;
         }
-        .price-label {
+        .book-genre {
+            font-style: italic;
+            font-size: 14px;
+            color: #CCCCCC;
+            height: 10px;
+        }
+        .book-price {
             position: absolute;
+            font-size: 18px;
+            font-family: 'Arial';
             text-align: right;
+            top: -5px;
+            right: 10px;
+            color: black;
+            padding: 0px;
+            font-weight: bold;
+        }
+        .tag {
+            position: absolute;
+            top: 8px;
+            left: 120px;
         }
         .grid {
-
+            position: relative;
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
         }
         .cell {
-            width: 170px;
+            width: 300px;
+            height: 360px;
+        }
+        .grid-container {
+            position: relative;
+            background-image: linear-gradient(white, blue);
+            left: 15%;
+            width: 70%;
         }
     </style>
-</head>
-<body>
     <script>
         function enter(el) {
             el.children[0].style.filter = "brightness(0.4)";
@@ -59,35 +88,128 @@
             el.children[1].style.visibility = "hidden";
         }
     </script> 
+</head>
+<body>
+    <img src="ramps-logo.png" width="300px">
+    <div class="grid-container">
     <table class="grid">
         <tr>
             <td class="cell">
                 <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
                     <img class="cover" src="cover.jpg" alt="cover"> 
-                    <div class="price">
-                        <svg class="price-tag">
-                            <circle cx="30" cy="30", r="30">
-                        </svg>
-                        <p class="price-label">34$</p>
-                    </div>
                     <div class="desc">
-                        <p>NIMI</p>
-                        <p>AUTOR</p>
-                        <p>ZANR</p>
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
                     </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
                 </div>
             </td>
             <td class="cell">
                 <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
                     <img class="cover" src="cover.jpg" alt="cover"> 
                     <div class="desc">
-                        <p>NIMI</p>
-                        <p>AUTOR</p>
-                        <p>ZANR</p>
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
                     </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
+                </div>
+            </td>
+            <td class="cell">
+                <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
+                    <img class="cover" src="cover.jpg" alt="cover"> 
+                    <div class="desc">
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
+                    </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
+                </div>
+            </td>
+            <td class="cell">
+                <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
+                    <img class="cover" src="cover.jpg" alt="cover"> 
+                    <div class="desc">
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
+                    </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="cell">
+                <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
+                    <img class="cover" src="cover.jpg" alt="cover"> 
+                    <div class="desc">
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
+                    </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
+                </div>
+            </td>
+            <td class="cell">
+                <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
+                    <img class="cover" src="cover.jpg" alt="cover"> 
+                    <div class="desc">
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
+                    </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
+                </div>
+            </td>
+            <td class="cell">
+                <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
+                    <img class="cover" src="cover.jpg" alt="cover"> 
+                    <div class="desc">
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
+                    </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
+                </div>
+            </td>
+            <td class="cell">
+                <div class="tile" onmouseenter="enter(this)" onmouseleave="leave(this)">
+                    <img class="cover" src="cover.jpg" alt="cover"> 
+                    <div class="desc">
+                        <p class="book-name">Nimi nimi nimi</p>
+                        <p class="book-author">Autor autor autor</p>
+                        <p class="book-genre">Zanr zanr zanr</p>
+                    </div>
+                    <svg class="tag" width="70" height="30">
+                        <rect x="0" y="0" rx="10" ry="10" width="70" height="30" style="fill:#FFCC33;"/>
+                    </svg>
+                    <p class="book-price">34$</p>
                 </div>
             </td>
         </tr>
     </table>
+    </div>
 </body>
 </html>
