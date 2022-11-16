@@ -38,5 +38,5 @@ a {
     margin-left: auto;
     margin-right: auto;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(px 5px 5px rgba(34, 34, 34, 0.845));
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.845));
 }
