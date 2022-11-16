@@ -5,15 +5,23 @@ h1 {font-family: Brush Script MT;
     font-size: 350%;
     text-align: center;
 }
-
-body {
+html { 
+    background: url('taustapilt.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* body {
     background-image: url('taust3.jpg');
+
+    background-repeat: no-repeat;
     /*  background-repeat: no-repeat;
     background-position: center;
     height: 500px;
     font-family: "Lato", sans-serif;
-    background-size: 33%;*/
-}
+    background-size: 33%;
+} */
 a {
     text-align: center}
 
@@ -23,11 +31,6 @@ a {
     border: 10px groove yellowgreen;
     padding: 10px;
     background-color: rgb(91, 86, 97);
-}
-
-.menüülogo {
-    width: 280px;
-    height:240px;
 }
 
 .Mainpagelogo {
