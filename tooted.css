@@ -46,12 +46,12 @@
     font-size: 16px;
     font-family: 'Arial';
     text-align: center;
-    background-color: #FFCC33;
+    background-color: #A01584;
     top: 8px;
     right: -16px;
     width: 40%;
     height: 28px;
-    color: black;
+    color: white;
     border: none;
     border-radius: 10px;
     font-weight: bold;
@@ -87,10 +87,11 @@
     border-radius: 10px;
     width: 60%;
     height: 28px;
-    background-color: #FFCC33;
+    background-color: #A71584;
     font-size: 16px;
     font-family: 'Arial';
     font-weight: bold;
+    color: white;
     cursor: pointer;
 }
 .order-button:hover {
