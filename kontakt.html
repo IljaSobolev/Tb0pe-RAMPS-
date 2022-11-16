@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">    
     <title>Kontakt</title>
+    <script src="menüü.js"></script>
 </head>
 <body>
 <html class="kontakt"></html>
 
 <!-- SIIT ALGAB MENÜÜ(sidebar) kood-->
 <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="#">Avaleht</a>
-    <a href="#">Tooted</a>
-    <a href="#">Kontakt</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="./avaleht.html">Avaleht</a>
+  <a href="./tooted.html">Tooted</a>
+  <a href="./kontakt.html">Kontakt</a>
+  <br>
+  <br>
+  <img class="menüülogo" src="ramps-logo.png" alt="RAMPSi logo">
 </div>
   
 <div id="main">
     <button class="openbtn" onclick="openNav()">☰ Menüü</button>
 </div>
-<html>
-<head>
-<style>
 
-<!--SIIT ALGAB KONTAKTIDE VORM-->
+<!--Täitmisvorm-->
 
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}
-
-input[type=text]:focus {
-  border: 3px solid #555;
-}
-</style>
-</head>
-<body>
-
-<form>
-  <label for="fname">Eesnimi:</label>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Eesnimi</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Perekonnanimi</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Meiliaadress</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Sõnum</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
   <br>
-  <input type="text" id="fname" name="fname" value="">
-  <br>
-  <label for="lname">Perekonnanimi:</label>
-  <br>
-  <input type="text" id="lname" name="lname" value="">
-  <br>
-  <label for="fname">Meiliaadress:</label>
-  <br>
-  <input type="text" id="fname" name="fname" value="">
-  <br>
-  <label for="fname">Sõnum:</label>
-  <br>
-  <input type="text" id="fname" name="fname" value="">
-  <br>
-</form>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
 
 </body>
 </html>
