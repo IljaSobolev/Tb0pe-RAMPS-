@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">    
+    <title>Kontakt</title>
+</head>
+<body>
+<html class="kontakt"></html>
+
+<!-- SIIT ALGAB MENÜÜ(sidebar) kood-->
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">Avaleht</a>
+    <a href="#">Tooted</a>
+    <a href="#">Kontakt</a>
+</div>
+  
+<div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Menüü</button>
+</div>
+<html>
+<head>
+<style>
+
+<!--SIIT ALGAB KONTAKTIDE VORM-->
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+</style>
+</head>
+<body>
+
+<form>
+  <label for="fname">Eesnimi:</label>
+  <br>
+  <input type="text" id="fname" name="fname" value="">
+  <br>
+  <label for="lname">Perekonnanimi:</label>
+  <br>
+  <input type="text" id="lname" name="lname" value="">
+  <br>
+  <label for="fname">Meiliaadress:</label>
+  <br>
+  <input type="text" id="fname" name="fname" value="">
+  <br>
+  <label for="fname">Sõnum:</label>
+  <br>
+  <input type="text" id="fname" name="fname" value="">
+  <br>
+</form>
+
+</body>
+</html>
+
+<script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+</body>
+</html>

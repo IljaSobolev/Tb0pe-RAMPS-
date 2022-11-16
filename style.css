@@ -1,5 +1,22 @@
 /* kommenteeri nii */
 
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+    /* set background image per page */
+    .avaleht {
+    background: url(taustapilt.jpg) no-repeat center center;
+    }
+    .tooted {
+    background: url(tooted_taust.jpg) no-repeat center center;
+    }
+    .kontakt {
+    background: url(kontakt_taust.jpg);
+    }
 
 h1 {font-family: Brush Script MT;
     font-size: 350%;
@@ -11,8 +28,12 @@ body {
     background-image: url('taust3.jpg');
     font-family: "Lato", sans-serif;
 }
-a {
-    text-align: center}
+
+h2 {font-size: medium;
+    font-weight: 200;
+    color: #b71584;
+    text-shadow: 3px 3px #0000003f;
+}
 
 .tutvustus {
     margin: auto;
@@ -32,7 +53,18 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: auto 0px auto 50px;
+    width: auto; height: auto;
+    text-align: left;
+    border: 10px inset #b71584;
+    padding: 15px;
+    background-color: #424242;
+    border-radius: 10px 80px 30px 80px;
+    box-shadow: 10px 10px 5px
+    #0000003f;
+
 }
+
 /* MENÜÜ BAR */
 
 
