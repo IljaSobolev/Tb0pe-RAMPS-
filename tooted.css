@@ -71,6 +71,8 @@
 }
 .grid-container {
     position: relative;
+    background-image: linear-gradient(0.5turn, #40202030, #40203070);
+    border-radius: 50px;
     left: 15%;
     width: 70%;
 }
