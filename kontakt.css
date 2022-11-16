@@ -14,16 +14,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: auto 0px auto 50px;
-    width: auto; height: auto;
-    text-align: left;
-    border: 10px inset #b71584;
-    padding: 15px;
-    background-color: #424242;
-    border-radius: 10px 80px 30px 80px;
-    box-shadow: 10px 10px 5px
-    #0000003f;
-
+    margin: auto 0px auto 0px;
+    width: 300px; height: auto;
 }
 
 .sidebar {
@@ -34,7 +26,6 @@ body {
     top: 0;
     left: 0;
     background-color: #111;
-    /*background:transparent; */
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -104,7 +95,7 @@ body {
     display: inline-block;
   }
   
-  input[type=submit] {
+  input[type=button] {
     background-color: #b71584;
     color: white;
     padding: 12px 20px;
@@ -114,11 +105,12 @@ body {
     float: right;
   }
   
-  input[type=submit]:hover {
+  input[type=button]:hover {
     background-color: #8f1167;
   }
   
   .container {
+    margin-top: 0px;
     margin-left: 25%;
     border-radius: 5px;
     background-color: #f2f2f2ef;
@@ -141,12 +133,4 @@ body {
     content: "";
     display: table;
     clear: both;
-  }
-
-  /*väiksema ekraani puhul */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
   }
