@@ -1,5 +1,10 @@
 /* MENÜÜ BAR */
-    
+
+.menüülogo {
+    width: 280px;
+    height:240px;
+}
+
 .sidebar {
     height: 100%;
     width: 0;

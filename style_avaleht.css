@@ -7,7 +7,7 @@ h1 {font-family: Brush Script MT;
 }
 
 body {
-    background-image: url('taust3.jpg');
+    background-image: url('taust3.jpg') no-repeat fixed 100% 100%;
     /*  background-repeat: no-repeat;
     background-position: center;
     height: 500px;
@@ -23,11 +23,6 @@ a {
     border: 10px groove yellowgreen;
     padding: 10px;
     background-color: rgb(91, 86, 97);
-}
-
-.menüülogo {
-    width: 280px;
-    height:240px;
 }
 
 .Mainpagelogo {
