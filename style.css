@@ -9,7 +9,7 @@ html {
     
     /* set background image per page */
     .avaleht {
-    background: url(taustapilt.jpg) no-repeat center center;
+    background: url(taust3.jpg) no-repeat center center;
     }
     .tooted {
     background: url(tooted_taust.jpg) no-repeat center center;
@@ -25,7 +25,6 @@ h1 {font-family: Brush Script MT;
 
 body {
     background-color: powderblue;
-    background-image: url('taust3.jpg');
     font-family: "Lato", sans-serif;
 }
 
