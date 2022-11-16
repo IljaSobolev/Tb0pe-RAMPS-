@@ -8,7 +8,7 @@ h1 {font-family: Brush Script MT;
 
 body {
     background-color: powderblue;
-    background-image: url('taustapilt.jpg');
+    background-image: url('taust3.jpg');
     font-family: "Lato", sans-serif;
 }
 a {
@@ -19,11 +19,20 @@ a {
     width: 60%; height: 250px;
     border: 10px groove yellowgreen;
     padding: 10px;
-    background-color: rebeccapurple;
+    background-color: rgb(91, 86, 97);
 
 }
 
+.menüülogo {
+    width: 280px;
+    height:240px;
+}
 
+.Mainpagelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* MENÜÜ BAR */
 
 
@@ -36,6 +45,7 @@ a {
     top: 0;
     left: 0;
     background-color: #111;
+    /*background:transparent; */
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -61,7 +71,7 @@ a {
     font-size: 36px;
     margin-left: 50px;
 }
-    
+ /* Menüü nupp */   
 .openbtn {
     font-size: 20px;
     cursor: pointer;
