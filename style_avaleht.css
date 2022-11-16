@@ -1,0 +1,39 @@
+/* kommenteeri nii */
+@import "menüü.css";
+
+h1 {font-family: Brush Script MT;
+    font-size: 350%;
+    text-align: center;
+}
+
+body {
+    background-image: url('taust3.jpg');
+    /*  background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    font-family: "Lato", sans-serif;
+    background-size: 33%;*/
+}
+a {
+    text-align: center}
+
+.tutvustus {
+    margin: auto;
+    width: 60%; height: 250px;
+    border: 10px groove yellowgreen;
+    padding: 10px;
+    background-color: rgb(91, 86, 97);
+}
+
+.menüülogo {
+    width: 280px;
+    height:240px;
+}
+
+.Mainpagelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(px 5px 5px rgba(34, 34, 34, 0.845));
+}
