@@ -134,3 +134,31 @@ body {
     display: table;
     clear: both;
   }
+
+  a.button {
+    margin: auto 80%;
+    text-decoration: none;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: #b71584;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  a.button:hover {
+    margin: auto 80%;
+    text-decoration: none;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    background-color: #8f1167;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
