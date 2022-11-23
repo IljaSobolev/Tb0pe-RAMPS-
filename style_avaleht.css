@@ -19,7 +19,7 @@ a {
 
 .tutvustus {
     margin: auto;
-    width: 60%; height: 120%;
+    width: 60%; height: auto;
     border: 10px groove #b71584;
     border-radius: 30px 120px 50px 80px;
     padding: 10px;
