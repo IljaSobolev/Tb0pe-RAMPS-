@@ -19,8 +19,9 @@ a {
 
 .tutvustus {
     margin: auto;
-    width: 60%; height: 250px;
-    border: 10px groove yellowgreen;
+    width: 60%; height: 120%;
+    border: 10px groove #b71584;
+    border-radius: 30px 120px 50px 80px;
     padding: 10px;
     background-color: rgb(66, 66, 66);
 }
