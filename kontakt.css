@@ -3,13 +3,11 @@
 body {
     background-color: powderblue;
     background-image: url('kontakt_taust.jpg');
+    overflow-x: hidden;
 }
 
 .Mainpagelogo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: auto 0px auto 0px;
     width: 300px; height: auto;
 }
 
