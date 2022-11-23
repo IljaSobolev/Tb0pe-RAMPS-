@@ -5,6 +5,12 @@
     width: 210px;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
 /* Milline näeb navigatsioonimenüü välja*/
 .sidebar {
     height: 100%;
