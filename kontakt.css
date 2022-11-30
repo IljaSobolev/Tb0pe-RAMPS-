@@ -1,3 +1,5 @@
+/*Autor: Hjalmar Vaiküll*/
+
 @import "menüü.css";
 
 body {
@@ -17,7 +19,8 @@ body {
     width: 300px; height: auto;
 }
 
-/* SIIT ALGAB KONTAKTIDE VORM--> */
+/* SIIT ALGAB KONTAKTIDE VORM */
+/* Idee: https://www.w3schools.com/css/css_form.asp */
 
 * {
     box-sizing: border-box;
@@ -61,6 +64,9 @@ body {
     display: table;
     clear: both;
   }
+
+/* SIIT ALGEB NUPU CSS */
+/* Idee: https://www.w3schools.com/css/css3_buttons.asp */
 
   a.button {
     margin: auto 80%;
