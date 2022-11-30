@@ -3,14 +3,9 @@
     position: absolute;
     top: -29px;
     width: 210px;
+    z-index: -1;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-}
 /* Milline näeb navigatsioonimenüü välja*/
 .sidebar {
     height: 100%;
@@ -26,12 +21,12 @@ img {
 }
 
 .sidebar a {
-    padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    margin: 10px 10px 10px 10px;
 }
  
 .sidebar a:hover {
@@ -55,7 +50,6 @@ img {
     color: white;
     padding: 10px 15px;
     border: none;
-    position:absolute;
 }
 
 .openbtn:hover {
