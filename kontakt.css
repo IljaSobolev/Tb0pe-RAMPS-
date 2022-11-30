@@ -13,6 +13,7 @@ body {
 
 .Mainpagelogo {
     display: block;
+    margin-left: 0;
     width: 300px; height: auto;
 }
 
