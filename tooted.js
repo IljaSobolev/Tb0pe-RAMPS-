@@ -1,3 +1,5 @@
+// Autor: Ilja Sobolev
+
 // kutsutud kui kursor läheb raamatu elemendi peale
 function enter(el) {
     el.children[0].style.filter = "brightness(0.4)";
